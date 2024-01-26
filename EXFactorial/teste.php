@@ -67,3 +67,5 @@ else if( $possibleAnswers % 2 == 0){
 else{
     echo "Alice";
 }
+
+echo " ";
