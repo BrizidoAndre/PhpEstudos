@@ -19,17 +19,19 @@
     </form>
 
     <h1>Delete</h1>
-    <form action="includes/formhandler.inc.php" method="post">
+    <form action="includes/deletehandler.inc.php" method="post">
         <input required name="username" type="text" placeholder="Username">
         <input required name="pwd" type="password" placeholder="Password">
         <button>Delete</button>
     </form>
 
     <h1>Update</h1>
-    <form action="includes/formhandler.inc.php" method="post">
+    <form action="includes/updatehandler.inc.php" method="post">
         <input required name="username" type="text" placeholder="Username">
         <input required name="pwd" type="password" placeholder="Password">
-        <button>Update</button>
+        <h4>Change email:</h4>
+        <input required name="mail" type="email" placeholder="E-Mail">
+        <button>Change E-mail</button>
     </form>
 </body>
 </html>

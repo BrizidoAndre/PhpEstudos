@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $stmt->execute([$username, $pwd, $mail]);
 
+//        Reseting the variables for a next use
         $pdo = null;
         $stmt = null;
 
