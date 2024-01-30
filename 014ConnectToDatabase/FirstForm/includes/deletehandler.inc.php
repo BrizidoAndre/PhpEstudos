@@ -26,7 +26,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     } catch (PDOException $e){
         die("Query failed: " . $e->getMessage());
-        header("Location: ../index.php");
     }
 }
 else{

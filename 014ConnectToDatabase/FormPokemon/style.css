@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    place-items: center;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #b90000;
+    border-radius: 12px;
+    padding:10px;
+
+    gap: 30px;
+}
+
+input, select, option, button{
+    width: 200px;
+    height: 25px;
+    border-radius: 12px;
+
+    padding:5px;
+
+    border: 0 solid transparent;
+}
+button{
+    width: 120px;
+}

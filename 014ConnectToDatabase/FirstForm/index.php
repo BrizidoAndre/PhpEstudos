@@ -33,5 +33,11 @@
         <input required name="mail" type="email" placeholder="E-Mail">
         <button>Change E-mail</button>
     </form>
+
+    <h1>Search for comments</h1>
+    <form action="search.php" method="post">
+        <input required name="search" type="text" placeholder="Username's name">
+        <button>Search</button>
+    </form>
 </body>
 </html>
