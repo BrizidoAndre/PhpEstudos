@@ -1,6 +1,5 @@
 <?php
 
-global $pdo;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
@@ -10,12 +9,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
 
         require_once "dbh.inc.php";
+        global $pdo;
 
         $query = "UPDATE users SET email = ? WHERE username = ? AND pwd = ?";
 
         $stmt = $pdo->prepare($query);
 
-        $stmt->execute([$email , $username, $pwd]);
+        $stmt->execute([$email, $username, $pwd]);
 
         $stmt = null;
         $pdo = null;

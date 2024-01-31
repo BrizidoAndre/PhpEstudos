@@ -1,5 +1,4 @@
 <?php
-global $pdo;
 try {
     require_once "./includes/db.inc.php";
     $query = "SELECT * FROM type";
