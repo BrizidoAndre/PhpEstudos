@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require_once "./includes/db.inc.php";
 
 global $conn;
@@ -10,7 +12,9 @@ $result = mysqli_query($conn,$query);
 
 $result = mysqli_fetch_all($result,1);
 
-print_r($result)
+if(!isset($_SESSION["user"])){
+    header("Location: ./index.php");
+}
 
 ?>
 
@@ -24,13 +28,13 @@ print_r($result)
     <title>Document</title>
 </head>
 <body>
-<h1>Admin</h1>
+<h1>Seja bem vindo, <?php echo $_SESSION["user"]["username"]?></h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur debitis facere ipsam nesciunt rem. Alias atque
     eligendi, esse exercitationem, in inventore iusto libero mollitia nesciunt possimus provident ratione repudiandae,
     sapiente.</p>
 
-<a href="includes/cleanSessions.php">Clean Sessions</a>
+<a href="includes/cleanSessions.inc.php">Log out</a>
 
 <h1>Cadastro de Usuários</h1>
 
@@ -49,7 +53,7 @@ print_r($result)
 
     <button>Signup</button>
 </form>
-<h1>Deleção de usuários</h1>
+<h1>Exclusão de usuários</h1>
 <form action="includes/deleteHandler.inc.php" method="post">
     <input required name="username" type="text" placeholder="Username">
     <button>Delete</button>

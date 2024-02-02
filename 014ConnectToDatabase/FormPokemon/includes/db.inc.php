@@ -1,8 +1,8 @@
 <?php
 
-$dsn = 'mysql:host=localhost;dbname=pokemon';
+$dsn = 'mysql:host=localhost;dbname=pokemonform';
 $dbusername = "root";
-$dbpwd = "Senhaexemplo";
+$dbpwd = "";
 
 try {
 

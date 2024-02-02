@@ -11,6 +11,6 @@
 <h1>NOT FOUND</h1>
 <h2>Bananas</h2>
 
-<a href="includes/cleanSessions.php">Clean Sessions</a>
+<a href="includes/cleanSessions.inc.php">Clean Sessions</a>
 </body>
 </html>

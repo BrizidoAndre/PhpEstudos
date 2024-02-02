@@ -1,6 +1,15 @@
 <?php
 
-session_start();
+//initiating a session and setting some parameters
+session_start( [
+    'cookie_path' => '/',
+    'cookie_lifetime' => 15,
+    'cookie_secure' => true,
+    'cookie_httponly' => true,
+    'cookie_samesite' => 'lax',
+] );
+
+
 if ($_SERVER["REQUEST_METHOD"] != "POST") {
     header("Location: ../index.php");
     die();
@@ -41,5 +50,11 @@ $user = $row->fetch_assoc();
 $conn = null;
 $stmt = null;
 
+if(is_null($user)){
+    header("Location: ../index.php");
+    $_SESSION["tried"] = true;
+}
+
+$_SESSION["user"] = $user;
 
 redirectUser($user["kind"]);

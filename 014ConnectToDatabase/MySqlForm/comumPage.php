@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["user"])){
+    header("Location: index.php");
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,6 +18,6 @@
 <body>
 <h1>Usuario comum</h1>
 
-<a href="includes/cleanSessions.php">Clean Sessions</a>
+<a href="includes/cleanSessions.inc.php">Clean Sessions</a>
 </body>
 </html>
