@@ -1,6 +1,5 @@
 <?php
-
-if($_SERVER["REQUEST_METHOD"] != 'POST'){
+if ($_SERVER["REQUEST_METHOD"] != 'POST') {
     header("Location: ../index.php");
     die();
 }
@@ -9,28 +8,34 @@ session_start();
 
 try {
 
-require_once 'db.inc.php';
+    require_once 'db.inc.php';
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+    $query = "SELECT * FROM users WHERE username = ? AND pwd = ?";
 
-$query = "SELECT * FROM users WHERE username = ? AND pwd = ?";
+    $stmt = mysqli_prepare($conn, $query);
 
-$stmt = mysqli_prepare($conn, $query);
+    $stmt->execute([$username, $password]);
 
-$stmt->execute([$username, $password]);
+    $response = $stmt->get_result();
 
-$response = $stmt->get_result();
+    $info = $response->fetch_assoc();
 
-$info = $response->fetch_assoc();
 
-$_SESSION['user'] = $info;
+    $_SESSION['user'] = $info;
 
-header("Location: ../pokemon.php");
+    if (isset($_SESSION["user"])) {
+        header("Location: ../pokemon.php");
+    }
+    else{
+        $_SESSION['try'] = true;
+        header("Location: ../index.php");
+    }
 
-$stmt = null;
-$conn = null;
+    $stmt = null;
+    $conn = null;
 
-}catch(mysqli_sql_exception $e){
+} catch (mysqli_sql_exception $e) {
     echo "Erro de inserção: " . $e;
 }

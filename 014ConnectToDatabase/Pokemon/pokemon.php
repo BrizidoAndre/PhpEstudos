@@ -13,23 +13,17 @@ $user = $_SESSION["user"];
 require_once 'includes/db.inc.php';
 
 $query = "SELECT * FROM type";
-
 $rows = mysqli_query($conn, $query);
-
 $types = mysqli_fetch_all($rows, 1);
-
 $rows = null;
 
 //searching for the list of pokemons with the user
-$query = "SELECT * FROM pokemons WHERE idUser = ?";
-
-$stmt =$conn -> prepare($query);
-
+$query = "SELECT * ,pokemons.name as nome FROM pokemons LEFT JOIN type ON type.id = pokemons.idType WHERE idUser = ?";
+$stmt = $conn->prepare($query);
 $stmt->execute([$user['id']]);
+$rows = $stmt->get_result();
+$pokemons = $rows->fetch_all(1);
 
-$rows = $stmt -> get_result();
-
-$pokemons = $rows-> fetch_all(1);
 
 ?>
 
@@ -41,50 +35,77 @@ $pokemons = $rows-> fetch_all(1);
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pokeStyles.css">
     <title>List of pokemons</title>
 </head>
 <body>
 
-<h1>Welcome <?php echo htmlspecialchars($user["username"]) ?>!</h1>
+<header>
+    <h1>Welcome <?php echo htmlspecialchars($user["username"]) ?>!</h1>
 
-<img src="includes/img/<?php echo $user["userimage"]; ?>" alt="">
+    <div class="sGap">
+        <a href="includes/logOut.inc.php">Log Out</a>
 
-<form action="includes/formPokehandler.php" method="post" enctype="multipart/form-data">
-    <h1>Sign new friends</h1>
-    <label for="name">Nome</label>
-    <input type="text" id="name" name="name" required>
+        <img src="includes/img/<?php echo $user["userimage"]; ?>" alt="">
+    </div>
 
-    <select name="idType" id="" required>
-        <option value="" selected hidden="hidden">Please select the type of this pokemon</option>
+</header>
 
-        <?php
-        foreach ($types as $type) {
-            echo "<option value='" . $type["id"] . "'>" . $type["name"] . "</option>";
-        }
-        ?>
+<main>
 
-    </select>
+    <form action="includes/formPokehandler.php" method="post" enctype="multipart/form-data">
+        <h1>Sign new friends</h1>
+        <label for="name">Name</label>
+        <input placeholder="Your pokemon's name" type="text" id="name" name="name" required>
 
-    <input type="text" hidden="hidden" value="<?php echo $user['id'] ?>" name="idUser">
+        <select name="idType" id="" required>
+            <option value="" selected hidden="hidden">The pokemon's type</option>
 
-    <label for="pokeImage">Selecione uma imagem para seu pokemon</label>
+            <?php
+            foreach ($types as $type) {
+                echo "<option value='" . $type["id"] . "'>" . $type["name"] . "</option>";
+            }
+            ?>
 
-    <input type="file" name="pokeImage" id="pokeImage" required>
+        </select>
 
-    <button>Cadastrar pokemón</button>
-</form>
+        <input type="text" hidden="hidden" value="<?php echo $user['id'] ?>" name="idUser">
 
-<div>
-    <h2>Your team:</h2>
+        <label for="pokeImage">Select your Pokemon's Image</label>
+
+        <input type="file" name="pokeImage" id="pokeImage" required>
+
+        <button>Sign Pokémon</button>
+    </form>
+
+</main>
+<div class="teamContainer">
+    <h1>Your team:</h1>
 
     <?php
-    foreach ($pokemons as $pokemon) {?>
+    foreach ($pokemons as $pokemon) { ?>
 
-        <h1><?php echo $pokemon["name"] ?></h1>
+        <div class="container">
 
-        <img src="includes/pokeImg/<?php echo $pokemon["pokePicture"] ?>">;
+            <div class="card">
+                <div class="pokemonCard">
+                    <h1><?php echo $pokemon["nome"] ?></h1>
 
+                    <img src="includes/pokeImg/<?php echo $pokemon["pokePicture"] ?>">
+                </div>
+                <div class="backCard">
+                    <h2>Name:</h2>
+                    <h3><?php echo $pokemon["nome"] ?></h3>
+                    <h2>Type</h2>
+                    <h3><?php echo $pokemon["name"] ?></h3>
+                    <h2>Pokedéx number:</h2>
+                    <h3><?php echo $pokemon["id"] ?></h3>
 
+                </div>
+            </div>
+
+        </div>
     <?php }
     ?>
 

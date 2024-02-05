@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Pokemon;
+    src: url("./fonts/pokemon/Pokemon Solid.ttf");
+    font-weight: normal;
+}
+body{
+    background:#08224e;
+
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 5px solid white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 720px;
+    background-repeat: no-repeat;
+
+    background-image: url("siteimgs/forest.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+h1{
+    color: #ffcb08;
+    font-family: Pokemon;
+    -webkit-text-stroke: 2px #2e6db5;
+    font-size: 64px;
+}
+h2, h3, h4, p, label, a{
+    font-family: Arial;
+    color:white;
+    font-weight: bold;
+}
+
+input{
+    border:none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+
+    color:black;
+}
+
+input[type='file']{
+    display: none;
+}
+
+.labelFile{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #2e6db5;
+
+    display: grid;
+    place-items: center;
+
+    cursor:pointer;
+}
+
+select{
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+
+    font-weight: bold;
+    border:none;
+}
+
+button{
+    color: black;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    background: #ffcb08;
+    border:3px solid #2e6db5;
+    border-radius: 15px ;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+header h1{
+    font-size: 24px;
+    -webkit-text-stroke: 0.5px #2e6db5;
+}
+header img{
+    width: 50px;
+}
+
+.sGap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

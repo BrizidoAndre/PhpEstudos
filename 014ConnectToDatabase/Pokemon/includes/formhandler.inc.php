@@ -9,7 +9,7 @@ try {
 
 require_once 'db.inc.php';
 
-$query = 'INSERT INTO users(username, pwd, userimage, idFavType, idType) VALUES (?,?,?,?,1)';
+$query = 'INSERT INTO users(username, pwd, userimage, idFavType, idType) VALUES (?,?,?,?,2)';
 
 $username = $_POST['username'];
 $password = $_POST['password'];
