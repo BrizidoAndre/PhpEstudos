@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51329366-bd6a-48fc-9f94-92be959667a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../002GlovalVariable/002SuperGlobalVariable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003Variables/003variables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004Form/004FirstForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004Form/fail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004Form/formHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005Operators/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006ConditionsAndControls/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007Calculator/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008Arrays/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009InternalFunctions/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010UserFunctions/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011Scopes/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012Constants/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013Loops/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/.idea/AnotherMySqlForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/includes/db.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/AnotherMySqlForm/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/.idea/FirstForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/includes/dbh.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/includes/deletehandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/includes/hashpwd.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/includes/updatehandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FirstForm/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/includes/db.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/includes/formdelete.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/includes/formupdate.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/searchupdate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/FormPokemon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/.idea/ImageForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/db.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd1cf81ba6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd1fac2eecf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd1fff85795.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd202ba95a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd221077d98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd24963a2cb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd24bfa564d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd24c9e7f5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd24f068dda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd254d923a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd267a9692b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/includes/img/65bd27c84cdfc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/ImageForm/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/.idea/MySqlForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/adminPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/comumPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/includes/cleanSessions.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/includes/db.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/includes/deleteHandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/includes/login.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/notFoundPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/MySqlForm/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/.idea/Pokemon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/fonts/pokemon/Pokemon Hollow.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/fonts/pokemon/Pokemon Solid.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/db.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/formPokehandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/formhandler.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/img/18d9e1307018dbc76750ca7d5124fccd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/img/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/img/seupai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/logOut.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/login.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/20160126150625906104u.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/c617aa52286fc2620ca773e6d6b62ffb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/png-transparent-pikachu-pokemon-go-pokemon-x-and-y-venusaur-bulbasaur-bulbasaur-vertebrate-fauna-cartoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/includes/pokeImg/tyranatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/pokeStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/pokemon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/signUp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/siteimgs/forest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/siteimgs/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014ConnectToDatabase/Pokemon/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015Session/example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015Session/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016SecuritySessions/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016SecuritySessions/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex/EXFactorial/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex/EXFactorial/teste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex/EXFactorial/teste2.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2c07deWgjU6ykSxfs8ME2iZxjkm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/xampp/htdocs/PHP/014ConnectToDatabase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51329366-bd6a-48fc-9f94-92be959667a6" name="Changes" comment="" />
+      <created>1707236730112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707236730112</updated>
+      <workItem from="1707236731156" duration="789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
